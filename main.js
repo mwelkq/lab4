@@ -126,6 +126,7 @@ function startServer() {
     }
   });
 
+  
   server.on('error', (e) => {
     console.error('Помилка сервера:', e.message);
     process.exit(1);
